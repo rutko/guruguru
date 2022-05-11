@@ -1,6 +1,6 @@
 <template>
-  <v-form v-model="valid">
-    <v-container>
+  <v-container>
+    <v-form v-model="valid">
       <v-row>
         <v-col
           cols="12"
@@ -45,11 +45,24 @@
         </v-col>
         <v-col>
           <v-checkbox
-            v-model="pickUp"
+            v-model="live"
             label="ライブ配信あり"
           ></v-checkbox>
         </v-col>
       </v-row>
-    </v-container>
-  </v-form>
+    </v-form>
+  </v-container>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      area: '',
+      party: '',
+      keyword: '',
+      pickUp: false,
+      live: false,
+    }
+  }
+}
+</script>

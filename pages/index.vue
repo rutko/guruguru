@@ -1,11 +1,14 @@
 <template>
     <v-card class="logo py-4 d-flex justify-center">
-      <Search />
+      <AreaSearch />
     </v-card>
 </template>
 
 <script>
+import AreaSearch from "../components/AreaSearch.vue";
 export default {
-  name: 'IndexPage'
+    async mounted() {
+    },
+    components: { AreaSearch }
 }
 </script>
