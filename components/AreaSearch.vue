@@ -6,26 +6,85 @@
         エリア
       </v-card-subtitle>
       <v-card-text>
-        <v-list dense>
-          <v-subheader>北海道・東北</v-subheader>
-          <v-list-item>北海道</v-list-item>
-          <v-list-item>青森</v-list-item>
-          <v-list-item>秋田</v-list-item>
-          <v-list-item>山形</v-list-item>
-          <v-list-item>岩手</v-list-item>
-          <v-list-item>宮城</v-list-item>
-          <v-list-item>福島</v-list-item>
-        </v-list>
-        <v-list dense>
-          <v-subheader>関東</v-subheader>
-          <v-list-item>東京</v-list-item>
-          <v-list-item>神奈川</v-list-item>
-          <v-list-item>埼玉</v-list-item>
-          <v-list-item>千葉</v-list-item>
-          <v-list-item>栃木</v-list-item>
-          <v-list-item>茨城</v-list-item>
-          <v-list-item>群馬</v-list-item>
-        </v-list>
+        <v-row>
+          <v-col>
+            <v-list dense>
+              <v-subheader>北海道・東北</v-subheader>
+              <v-list-item>北海道</v-list-item>
+              <v-list-item>青森</v-list-item>
+              <v-list-item>秋田</v-list-item>
+              <v-list-item>山形</v-list-item>
+              <v-list-item>岩手</v-list-item>
+              <v-list-item>宮城</v-list-item>
+              <v-list-item>福島</v-list-item>
+            </v-list>
+          </v-col>
+          <v-col>
+            <v-list dense>
+              <v-subheader>関東</v-subheader>
+              <v-list-item>東京</v-list-item>
+              <v-list-item>神奈川</v-list-item>
+              <v-list-item>埼玉</v-list-item>
+              <v-list-item>千葉</v-list-item>
+              <v-list-item>栃木</v-list-item>
+              <v-list-item>茨城</v-list-item>
+              <v-list-item>群馬</v-list-item>
+            </v-list>
+          </v-col>
+          <v-col>
+            <v-list dense>
+              <v-subheader>中部</v-subheader>
+              <v-list-item>愛知</v-list-item>
+              <v-list-item>岐阜</v-list-item>
+              <v-list-item>静岡</v-list-item>
+              <v-list-item>三重</v-list-item>
+              <v-list-item>新潟</v-list-item>
+              <v-list-item>山梨</v-list-item>
+              <v-list-item>長野</v-list-item>
+              <v-list-item>石川</v-list-item>
+              <v-list-item>富山</v-list-item>
+              <v-list-item>福井</v-list-item>
+            </v-list>
+          </v-col>
+          <v-col>
+            <v-list dense>
+              <v-subheader>関西</v-subheader>
+              <v-list-item>大阪</v-list-item>
+              <v-list-item>兵庫</v-list-item>
+              <v-list-item>京都</v-list-item>
+              <v-list-item>滋賀</v-list-item>
+              <v-list-item>奈良</v-list-item>
+              <v-list-item>和歌山</v-list-item>
+            </v-list>
+          </v-col>
+           <v-col>
+            <v-list dense>
+              <v-subheader>中国・四国</v-subheader>
+              <v-list-item>岡山</v-list-item>
+              <v-list-item>広島</v-list-item>
+              <v-list-item>鳥取</v-list-item>
+              <v-list-item>島根</v-list-item>
+              <v-list-item>山口</v-list-item>
+              <v-list-item>香川</v-list-item>
+              <v-list-item>徳島</v-list-item>
+              <v-list-item>愛媛</v-list-item>
+              <v-list-item>高知</v-list-item>
+            </v-list>
+          </v-col>
+          <v-col>
+            <v-list dense>
+              <v-subheader>九州・沖縄</v-subheader>
+              <v-list-item>福岡</v-list-item>
+              <v-list-item>佐賀</v-list-item>
+              <v-list-item>長崎</v-list-item>
+              <v-list-item>熊本</v-list-item>
+              <v-list-item>大分</v-list-item>
+              <v-list-item>宮崎</v-list-item>
+              <v-list-item>鹿児島</v-list-item>
+              <v-list-item>沖縄</v-list-item>
+            </v-list>
+          </v-col>
+        </v-row>
       </v-card-text>
     </v-card>
   </v-container>
