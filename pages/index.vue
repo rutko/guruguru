@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <RecommendItems />
+    <Group />
     <AreaSearch />
   </v-container>
 </template>

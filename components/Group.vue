@@ -5,7 +5,7 @@
         <v-card elevation="0" outlined max-width="160px" v-on:click="onClick(item.id)">
           <v-img
             max-height="160px"
-            src="img/anifareLogo.png"
+            :src="item.img_src"
           />
 
           <v-card-title class="pb-0">
@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       items: [
-        { id: 1, name: 'anifare', description:'全国300以上の動物病院と提携', url: 'https://anifare.jp/' },
+        { id: 1, name: 'anifare', description:'全国300以上の動物病院と提携', url: 'https://anifare.jp/', img_src: "img/anifareLogo.png" },
       ]
     }
   },
