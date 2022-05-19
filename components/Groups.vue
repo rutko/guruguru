@@ -28,6 +28,9 @@ export default {
     return {
       items: [
         { id: 1, name: 'anifare', description:'全国300以上の動物病院と提携', url: 'https://anifare.jp/', img_src: "img/anifareLogo.png" },
+        { id: 2, name: 'anifare', description:'全国300以上の動物病院と提携', url: 'https://anifare.jp/', img_src: "img/anifareLogo.png" },
+        { id: 3, name: 'anifare', description:'全国300以上の動物病院と提携', url: 'https://anifare.jp/', img_src: "img/anifareLogo.png" },
+        { id: 4, name: 'anifare', description:'全国300以上の動物病院と提携', url: 'https://anifare.jp/', img_src: "img/anifareLogo.png" },
       ]
     }
   },

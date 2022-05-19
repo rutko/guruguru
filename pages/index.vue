@@ -1,6 +1,7 @@
 <template>
   <v-container fluid>
-    <Group />
+    <Dogs />
+    <Groups />
     <AreaSearch />
   </v-container>
 </template>
