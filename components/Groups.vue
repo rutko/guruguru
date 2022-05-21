@@ -1,5 +1,11 @@
 <template>
   <v-container fluid>
+    <v-toolbar class="elevation-0 transparent">
+      <v-toolbar-title>
+        <h4>保護団体</h4>
+      </v-toolbar-title>
+      <v-spacer />
+    </v-toolbar>
     <v-row>
       <v-col v-for="item in items" :key="item.id">
         <v-card elevation="0" outlined max-width="160px" v-on:click="onClick(item.id)">

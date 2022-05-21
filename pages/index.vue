@@ -1,7 +1,6 @@
 <template>
   <v-container fluid>
-    <Dogs />
-    <Cats />
+    <NewArrived />
     <Groups />
     <AreaSearch />
   </v-container>
@@ -9,9 +8,10 @@
 
 <script>
 import AreaSearch from "../components/AreaSearch.vue";
+import NewArrived from "../components/NewArrived.vue";
 export default {
     async mounted() {
     },
-    components: { AreaSearch }
+    components: { AreaSearch, NewArrived }
 }
 </script>
