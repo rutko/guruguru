@@ -5,11 +5,11 @@
         <h4>新着</h4>
       </v-toolbar-title>
       <v-spacer />
-      <v-btn text color="cyan">
+      <v-btn text color="cyan" to="/dogs">
         <v-icon left>mdi-magnify</v-icon>
         募集中のワンちゃん一覧へ
       </v-btn>
-      <v-btn text color="cyan">
+      <v-btn text color="cyan" to="/cats">
         <v-icon left>mdi-magnify</v-icon>
         募集中のネコちゃん一覧へ
       </v-btn>
@@ -32,6 +32,7 @@
 
           <v-card-title class="pb-0">
             <div class="text-overline">{{ item.breed }}/{{ item.age }}歳</div>
+            <v-btn icon :color="love ? 'pink' : 'grey'" @click.stop="love=true"><v-icon>mdi-heart</v-icon></v-btn>
           </v-card-title>
           <v-divider />
           <v-card-text class="text-caption">
@@ -59,7 +60,8 @@ export default {
         { id: 1, place: '兵庫', breed: '三毛猫', name: 'みけちゃん', age: 2, gender: 1,  description:'少し怖がりさんですが、おっとりした子です。', url: 'https://anifare.jp/', img_src: "img/dammy2.jpeg" },
         { id: 2, place: '関東', breed: 'ノルウェージャンホレストキャット', name: 'みーちゃん', age: 2, gender: 2,  description:'人が大好き、食欲旺盛、元気いっぱいな男の子です', url: 'https://anifare.jp/', img_src: "img/dammy2.jpeg" },
         { id: 2, place: '東京',  breed: '三毛猫', name: 'ケンちゃん', age: 2, gender: 2,  description:'人が大好き、食欲旺盛、元気いっぱいな男の子です', url: 'https://anifare.jp/', img_src: "img/dammy2.jpeg" },
-      ]
+      ],
+      love: false
     }
   },
   methods: {
