@@ -64,6 +64,11 @@ export default {
     timing: false
   },
 
+  publicRuntimeConfig: {
+    NODE_ENV: process.env.NODE_ENV,
+    EXAMPLE: process.env.NODE_ENV !== "production" ? "開発環境" : "本番環境",
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
